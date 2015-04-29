@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  HaircurRecorder
+//  HaircutRecorder
 //
 //  Created by AidaAkihiro on 2015/04/02.
 //  Copyright (c) 2015年 Wasnot Apps. All rights reserved.

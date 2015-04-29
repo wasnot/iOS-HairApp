@@ -1,6 +1,6 @@
 //
-//  HaircurRecorderTests.swift
-//  HaircurRecorderTests
+//  HaircutRecordetTests.swift
+//  HaircutRecordetTests
 //
 //  Created by AidaAkihiro on 2015/04/02.
 //  Copyright (c) 2015年 Wasnot Apps. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class HaircurRecorderTests: XCTestCase {
+class HaircutRecorderTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

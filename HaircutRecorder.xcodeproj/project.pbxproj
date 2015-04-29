@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB683ED21AE63BC4004DB5F8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB683ED11AE63BC4004DB5F8 /* InterfaceController.swift */; };
+		AB683ED41AE63BC4004DB5F8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB683ED31AE63BC4004DB5F8 /* NotificationController.swift */; };
+		AB683ED61AE63BC4004DB5F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB683ED51AE63BC4004DB5F8 /* Images.xcassets */; };
+		AB683EDA1AE63BC4004DB5F8 /* HaircutRecorder WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = AB683ED91AE63BC4004DB5F8 /* HaircutRecorder WatchKit App.app */; };
+		AB683EE21AE63BC4004DB5F8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB683EE01AE63BC4004DB5F8 /* Interface.storyboard */; };
+		AB683EE41AE63BC4004DB5F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB683EE31AE63BC4004DB5F8 /* Images.xcassets */; };
+		AB683EE71AE63BC4004DB5F8 /* HaircutRecorder WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB683ECC1AE63BC4004DB5F8 /* HaircutRecorder WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ABD14F6B1ACD200800744F26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD14F6A1ACD200800744F26 /* AppDelegate.swift */; };
+		ABD14F6D1ACD200800744F26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD14F6C1ACD200800744F26 /* ViewController.swift */; };
+		ABD14F701ACD200800744F26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD14F6E1ACD200800744F26 /* Main.storyboard */; };
+		ABD14F721ACD200800744F26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD14F711ACD200800744F26 /* Images.xcassets */; };
+		ABD14F751ACD200800744F26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD14F731ACD200800744F26 /* LaunchScreen.xib */; };
+		ABD14F811ACD200800744F26 /* HaircutRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD14F801ACD200800744F26 /* HaircutRecorderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB683EDB1AE63BC4004DB5F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD14F5D1ACD200700744F26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB683ED81AE63BC4004DB5F8;
+			remoteInfo = "HaircutRecorder WatchKit App";
+		};
+		AB683EE51AE63BC4004DB5F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD14F5D1ACD200700744F26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB683ECB1AE63BC4004DB5F8;
+			remoteInfo = "HaircutRecorder WatchKit Extension";
+		};
+		ABD14F7B1ACD200800744F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD14F5D1ACD200700744F26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD14F641ACD200800744F26;
+			remoteInfo = HaircurRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB683EEE1AE63BC4004DB5F8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB683EE71AE63BC4004DB5F8 /* HaircutRecorder WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB683ECC1AE63BC4004DB5F8 /* HaircutRecorder WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HaircutRecorder WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB683ECF1AE63BC4004DB5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB683ED01AE63BC4004DB5F8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AB683ED11AE63BC4004DB5F8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AB683ED31AE63BC4004DB5F8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		AB683ED51AE63BC4004DB5F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB683ED91AE63BC4004DB5F8 /* HaircutRecorder WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HaircutRecorder WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB683EDF1AE63BC4004DB5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB683EE11AE63BC4004DB5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AB683EE31AE63BC4004DB5F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABD14F651ACD200800744F26 /* HaircutRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaircutRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD14F691ACD200800744F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD14F6A1ACD200800744F26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABD14F6C1ACD200800744F26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABD14F6F1ACD200800744F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABD14F711ACD200800744F26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABD14F741ACD200800744F26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABD14F7A1ACD200800744F26 /* HaircutRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaircutRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD14F7F1ACD200800744F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD14F801ACD200800744F26 /* HaircutRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaircutRecorderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB683EC91AE63BC4004DB5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD14F621ACD200800744F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD14F771ACD200800744F26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB683ECD1AE63BC4004DB5F8 /* HaircutRecorder WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB683ED11AE63BC4004DB5F8 /* InterfaceController.swift */,
+				AB683ED31AE63BC4004DB5F8 /* NotificationController.swift */,
+				AB683ED51AE63BC4004DB5F8 /* Images.xcassets */,
+				AB683ECE1AE63BC4004DB5F8 /* Supporting Files */,
+			);
+			path = "HaircutRecorder WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		AB683ECE1AE63BC4004DB5F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB683ECF1AE63BC4004DB5F8 /* Info.plist */,
+				AB683ED01AE63BC4004DB5F8 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB683EDD1AE63BC4004DB5F8 /* HaircutRecorder WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				AB683EE01AE63BC4004DB5F8 /* Interface.storyboard */,
+				AB683EE31AE63BC4004DB5F8 /* Images.xcassets */,
+				AB683EDE1AE63BC4004DB5F8 /* Supporting Files */,
+			);
+			path = "HaircutRecorder WatchKit App";
+			sourceTree = "<group>";
+		};
+		AB683EDE1AE63BC4004DB5F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB683EDF1AE63BC4004DB5F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABD14F5C1ACD200700744F26 = {
+			isa = PBXGroup;
+			children = (
+				ABD14F671ACD200800744F26 /* HaircutRecorder */,
+				ABD14F7D1ACD200800744F26 /* HaircutRecorderTests */,
+				AB683ECD1AE63BC4004DB5F8 /* HaircutRecorder WatchKit Extension */,
+				AB683EDD1AE63BC4004DB5F8 /* HaircutRecorder WatchKit App */,
+				ABD14F661ACD200800744F26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD14F661ACD200800744F26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD14F651ACD200800744F26 /* HaircutRecorder.app */,
+				ABD14F7A1ACD200800744F26 /* HaircutRecorderTests.xctest */,
+				AB683ECC1AE63BC4004DB5F8 /* HaircutRecorder WatchKit Extension.appex */,
+				AB683ED91AE63BC4004DB5F8 /* HaircutRecorder WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABD14F671ACD200800744F26 /* HaircutRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				ABD14F6A1ACD200800744F26 /* AppDelegate.swift */,
+				ABD14F6C1ACD200800744F26 /* ViewController.swift */,
+				ABD14F6E1ACD200800744F26 /* Main.storyboard */,
+				ABD14F711ACD200800744F26 /* Images.xcassets */,
+				ABD14F731ACD200800744F26 /* LaunchScreen.xib */,
+				ABD14F681ACD200800744F26 /* Supporting Files */,
+			);
+			path = HaircutRecorder;
+			sourceTree = "<group>";
+		};
+		ABD14F681ACD200800744F26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABD14F691ACD200800744F26 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABD14F7D1ACD200800744F26 /* HaircutRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD14F801ACD200800744F26 /* HaircutRecorderTests.swift */,
+				ABD14F7E1ACD200800744F26 /* Supporting Files */,
+			);
+			path = HaircutRecorderTests;
+			sourceTree = "<group>";
+		};
+		ABD14F7E1ACD200800744F26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABD14F7F1ACD200800744F26 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB683ECB1AE63BC4004DB5F8 /* HaircutRecorder WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB683EED1AE63BC4004DB5F8 /* Build configuration list for PBXNativeTarget "HaircutRecorder WatchKit Extension" */;
+			buildPhases = (
+				AB683EC81AE63BC4004DB5F8 /* Sources */,
+				AB683EC91AE63BC4004DB5F8 /* Frameworks */,
+				AB683ECA1AE63BC4004DB5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB683EDC1AE63BC4004DB5F8 /* PBXTargetDependency */,
+			);
+			name = "HaircutRecorder WatchKit Extension";
+			productName = "HaircutRecorder WatchKit Extension";
+			productReference = AB683ECC1AE63BC4004DB5F8 /* HaircutRecorder WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		AB683ED81AE63BC4004DB5F8 /* HaircutRecorder WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB683EEC1AE63BC4004DB5F8 /* Build configuration list for PBXNativeTarget "HaircutRecorder WatchKit App" */;
+			buildPhases = (
+				AB683ED71AE63BC4004DB5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HaircutRecorder WatchKit App";
+			productName = "HaircutRecorder WatchKit App";
+			productReference = AB683ED91AE63BC4004DB5F8 /* HaircutRecorder WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		ABD14F641ACD200800744F26 /* HaircutRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD14F841ACD200800744F26 /* Build configuration list for PBXNativeTarget "HaircutRecorder" */;
+			buildPhases = (
+				ABD14F611ACD200800744F26 /* Sources */,
+				ABD14F621ACD200800744F26 /* Frameworks */,
+				ABD14F631ACD200800744F26 /* Resources */,
+				AB683EEE1AE63BC4004DB5F8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB683EE61AE63BC4004DB5F8 /* PBXTargetDependency */,
+			);
+			name = HaircutRecorder;
+			productName = HaircurRecorder;
+			productReference = ABD14F651ACD200800744F26 /* HaircutRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABD14F791ACD200800744F26 /* HaircutRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD14F871ACD200800744F26 /* Build configuration list for PBXNativeTarget "HaircutRecorderTests" */;
+			buildPhases = (
+				ABD14F761ACD200800744F26 /* Sources */,
+				ABD14F771ACD200800744F26 /* Frameworks */,
+				ABD14F781ACD200800744F26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD14F7C1ACD200800744F26 /* PBXTargetDependency */,
+			);
+			name = HaircutRecorderTests;
+			productName = HaircurRecorderTests;
+			productReference = ABD14F7A1ACD200800744F26 /* HaircutRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD14F5D1ACD200700744F26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Wasnot Apps";
+				TargetAttributes = {
+					AB683ECB1AE63BC4004DB5F8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					AB683ED81AE63BC4004DB5F8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					ABD14F641ACD200800744F26 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					ABD14F791ACD200800744F26 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = ABD14F641ACD200800744F26;
+					};
+				};
+			};
+			buildConfigurationList = ABD14F601ACD200700744F26 /* Build configuration list for PBXProject "HaircutRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABD14F5C1ACD200700744F26;
+			productRefGroup = ABD14F661ACD200800744F26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD14F641ACD200800744F26 /* HaircutRecorder */,
+				ABD14F791ACD200800744F26 /* HaircutRecorderTests */,
+				AB683ECB1AE63BC4004DB5F8 /* HaircutRecorder WatchKit Extension */,
+				AB683ED81AE63BC4004DB5F8 /* HaircutRecorder WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB683ECA1AE63BC4004DB5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB683EDA1AE63BC4004DB5F8 /* HaircutRecorder WatchKit App.app in Resources */,
+				AB683ED61AE63BC4004DB5F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB683ED71AE63BC4004DB5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB683EE21AE63BC4004DB5F8 /* Interface.storyboard in Resources */,
+				AB683EE41AE63BC4004DB5F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD14F631ACD200800744F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD14F701ACD200800744F26 /* Main.storyboard in Resources */,
+				ABD14F751ACD200800744F26 /* LaunchScreen.xib in Resources */,
+				ABD14F721ACD200800744F26 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD14F781ACD200800744F26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB683EC81AE63BC4004DB5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB683ED41AE63BC4004DB5F8 /* NotificationController.swift in Sources */,
+				AB683ED21AE63BC4004DB5F8 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD14F611ACD200800744F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD14F6D1ACD200800744F26 /* ViewController.swift in Sources */,
+				ABD14F6B1ACD200800744F26 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD14F761ACD200800744F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD14F811ACD200800744F26 /* HaircutRecorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB683EDC1AE63BC4004DB5F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB683ED81AE63BC4004DB5F8 /* HaircutRecorder WatchKit App */;
+			targetProxy = AB683EDB1AE63BC4004DB5F8 /* PBXContainerItemProxy */;
+		};
+		AB683EE61AE63BC4004DB5F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB683ECB1AE63BC4004DB5F8 /* HaircutRecorder WatchKit Extension */;
+			targetProxy = AB683EE51AE63BC4004DB5F8 /* PBXContainerItemProxy */;
+		};
+		ABD14F7C1ACD200800744F26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD14F641ACD200800744F26 /* HaircutRecorder */;
+			targetProxy = ABD14F7B1ACD200800744F26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB683EE01AE63BC4004DB5F8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB683EE11AE63BC4004DB5F8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		ABD14F6E1ACD200800744F26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD14F6F1ACD200800744F26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABD14F731ACD200800744F26 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD14F741ACD200800744F26 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB683EE81AE63BC4004DB5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HaircutRecorder WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AB683EE91AE63BC4004DB5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "HaircutRecorder WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AB683EEA1AE63BC4004DB5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = HaircutRecorder_WatchKit_Extension;
+				INFOPLIST_FILE = "HaircutRecorder WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		AB683EEB1AE63BC4004DB5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = HaircutRecorder_WatchKit_Extension;
+				INFOPLIST_FILE = "HaircutRecorder WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		ABD14F821ACD200800744F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABD14F831ACD200800744F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABD14F851ACD200800744F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HaircutRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = HaircutRecorder;
+			};
+			name = Debug;
+		};
+		ABD14F861ACD200800744F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HaircutRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = HaircutRecorder;
+			};
+			name = Release;
+		};
+		ABD14F881ACD200800744F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HaircutRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = HaircutRecorderTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaircutRecorder.app/HaircutRecorder";
+			};
+			name = Debug;
+		};
+		ABD14F891ACD200800744F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HaircutRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = HaircutRecorderTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaircutRecorder.app/HaircutRecorder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB683EEC1AE63BC4004DB5F8 /* Build configuration list for PBXNativeTarget "HaircutRecorder WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB683EEA1AE63BC4004DB5F8 /* Debug */,
+				AB683EEB1AE63BC4004DB5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB683EED1AE63BC4004DB5F8 /* Build configuration list for PBXNativeTarget "HaircutRecorder WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB683EE81AE63BC4004DB5F8 /* Debug */,
+				AB683EE91AE63BC4004DB5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABD14F601ACD200700744F26 /* Build configuration list for PBXProject "HaircutRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD14F821ACD200800744F26 /* Debug */,
+				ABD14F831ACD200800744F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD14F841ACD200800744F26 /* Build configuration list for PBXNativeTarget "HaircutRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD14F851ACD200800744F26 /* Debug */,
+				ABD14F861ACD200800744F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD14F871ACD200800744F26 /* Build configuration list for PBXNativeTarget "HaircutRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD14F881ACD200800744F26 /* Debug */,
+				ABD14F891ACD200800744F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABD14F5D1ACD200700744F26 /* Project object */;
+}
